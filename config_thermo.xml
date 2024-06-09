@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProjectConfiguration>
+    <Component name="Thermometer">
+        <Parameter name="id" type="string" optional="true">my-thermometer</Parameter>
+        <Parameter name="value" type="number" optional="true">0</Parameter>
+        <Parameter name="height" type="number" default="192">200</Parameter>
+        <Parameter name="width" type="number" default="20">20</Parameter>
+        <Parameter name="color" type="string" optional="true">red</Parameter>
+        <Parameter name="min" type="number" default="0">0</Parameter>
+        <Parameter name="max" type="number" default="10">10</Parameter>
+        <Parameter name="base" type="number" default="10" optional="true">10</Parameter>
+        <Parameter name="logarithmic" type="boolean" optional="true">false</Parameter>
+        <Parameter name="showCurrentValue" type="boolean" optional="true">true</Parameter>
+        <Parameter name="units" type="string" optional="true">°C</Parameter>
+        <Parameter name="theme" type="dict" optional="true">{"light": true}</Parameter>
+        <Parameter name="label" type="dict" optional="true">
+            <label>Temperature</label>
+            <style>{"font-size": "14px"}</style>
+        </Parameter>
+        <Parameter name="labelPosition" type="string" default="top">top</Parameter>
+        <Parameter name="scale" type="dict" optional="true">
+            <custom>{"0": "Low", "10": "High"}</custom>
+            <interval>1</interval>
+            <labelInterval>2</labelInterval>
+            <start>0</start>
+        </Parameter>
+        <Parameter name="className" type="string" optional="true">thermometer-class</Parameter>
+        <Parameter name="style" type="dict" optional="true">{"border": "1px solid black"}</Parameter>
+    </Component>
+</ProjectConfiguration>

@@ -1,0 +1,14 @@
+<ProjectConfiguration>
+    <Component name="Graph" id="graph1">
+        <Parameter name="id" type="string" optional="true">graph1</Parameter>
+        <Parameter name="x_values" type="list" optional="false">[1, 2, 3, 4, 5]</Parameter>
+        <Parameter name="y_values" type="list" optional="false">[1, 4, 9, 16, 25]</Parameter>
+        <Parameter name="title" type="string" optional="true">Custom Graph 1</Parameter>
+    </Component>
+    <Component name="Graph" id="graph2">
+        <Parameter name="id" type="string" optional="true">graph2</Parameter>
+        <Parameter name="x_values" type="list" optional="false">[1, 2, 3, 4, 5]</Parameter>
+        <Parameter name="y_values" type="list" optional="false">[5, 16, 25, 36, 49]</Parameter>
+        <Parameter name="title" type="string" optional="true">Custom Graph 2</Parameter>
+    </Component>
+</ProjectConfiguration>

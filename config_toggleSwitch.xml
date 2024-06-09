@@ -1,0 +1,43 @@
+<ProjectConfiguration>
+    <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*23</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*23</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+    <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*24</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*24</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+    <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*25</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*25</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+     <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*26</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*26</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+    <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*27</Parameter>
+        <Parameter name="on" type="string" optional="true">False</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*27</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+    <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*28</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*28</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+    <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*29</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*29</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+     <Component name="BooleanSwitch">
+        <Parameter name="id" type="string" optional="true">READ*30</Parameter>
+        <Parameter name="label" type="string" optional="true">READ*30</Parameter>
+        <Parameter name="labelPosition" type="string" optional="true">top</Parameter>
+    </Component>
+</ProjectConfiguration>

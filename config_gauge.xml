@@ -1,0 +1,10 @@
+<ProjectConfiguration>
+    <Component name="Gauge">
+        <Parameter name="id" type="string" optional="true">my-gauge</Parameter>
+        <Parameter name="on" type="number" optional="true">0</Parameter>
+        <Parameter name="min" type="number" default="0">0</Parameter>
+        <Parameter name="max" type="number" default="100">15</Parameter>
+        <Parameter name="color" type="string" optional="true">#9B51E0</Parameter>
+        <Parameter name="label" type="string" optional="true">Default</Parameter>
+    </Component>
+</ProjectConfiguration>
